@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weblayout.com</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            top: 0;
+            position: sticky;
+        }
+        nav{top: 0;
+            position: sticky;
+            height: 10vh;
+            width: 100%;
+            background-color: aqua;
+        }
+        nav ul li a{
+            text-decoration: none;
+            list-style: none;
+            color: orangered;
+            font-weight: bold;
+            font-family: 1.2rem;
+
+            
+        }
+        li{
+            display: inline;
+            padding: 10px 5px;
+        }
+        main{
+            margin-top: 10px;
+            height: 100vh;
+            background-color: black;
+            text-align: center;
+            padding: 10px;
+        }
+        .container1{
+            height: 80vh;
+            width: 48%;
+            background-color: palevioletred;
+            display: inline-block;
+        }
+        .container2{
+            height: 80vh;
+            width: 48%;
+            background-color: rgb(112, 216, 164);
+            display: inline-block;
+        }
+        .text-bar{
+            margin: 10px auto;
+            height: 10vh;
+            width: 20vw;
+            color: white;
+            border: 2px solid white;
+
+        }
+        footer{
+            color: white;
+        }
+        .copyright{
+            height: 10vh;
+            background-color: aquamarine;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contect Us</a></li>
+                <li><a href="">Facebook</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container1"></div>
+        <div class="container2"></div>
+        <div class="text-bar">
+            This is a website layout.
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
